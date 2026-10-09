@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7055c6f2-fdde-4694-b56c-008e628c394a">
+  <producedTypes>
+    <refType typeId="510b5799-4cc3-4dc2-92f1-b857e3f24488" valueTypeId="e6359bfc-561a-4328-ba13-c05d7a835375"/>
+    <listType typeId="12051301-d39d-4c98-b663-4313a9514c15" valueTypeId="c4d217a5-cf21-41aa-b9c7-964771e5bb80"/>
+    <managerType typeId="00459f58-dec8-4215-90fa-48541eb04a1e" valueTypeId="bd73fd34-f88f-401f-9f2c-46e5eba724ef"/>
+  </producedTypes>
+  <name>ВидыСтавокНДС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды ставок НДС</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b8149f37-76eb-4362-b46b-8a681fd96ff1">
+    <name>Общая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Общая</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8e4b817b-aa17-4d59-8460-4d33f2f6ab62">
+    <name>ОбщаяРасчетная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Общая расчетная</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fe42071b-3c97-40b7-9e2f-734139564d3b">
+    <name>Пониженная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пониженная</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e9588d05-b4b2-423b-b043-96a8459f00c2">
+    <name>ПониженнаяРасчетная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пониженная расчетная</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="94e0942a-1d41-42f2-a92f-bb98b220d1a9">
+    <name>Нулевая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нулевая</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d2e14f5f-a6ea-4c0e-882f-f4b39ac0697c">
+    <name>БезНДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Без НДС</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ae5fa31d-d608-4226-9b4b-4f91015f275c">
+    <name>Пониженная2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пониженная2</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="620dd2c9-cb92-40e6-b8e7-6d6e182dbf4b">
+    <name>ПониженнаяРасчетная2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пониженная расчетная2</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

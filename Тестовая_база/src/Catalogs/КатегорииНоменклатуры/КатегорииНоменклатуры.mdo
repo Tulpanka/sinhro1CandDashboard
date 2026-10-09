@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ae8b7c67-0a06-457e-9b1b-a30c97012c00">
+  <producedTypes>
+    <objectType typeId="c798a667-d3a8-4f82-abfc-c697f23db297" valueTypeId="9f88eb4b-e47e-4f84-9220-1dfb2d97e0f9"/>
+    <refType typeId="e6058876-5959-4839-ae47-138ef79c9d5e" valueTypeId="11a9c78a-1c06-48bf-ab2d-0237ea7a396f"/>
+    <selectionType typeId="8323b29f-7aaf-4aae-9e40-d141e0c725e5" valueTypeId="98a89f25-6794-438c-ac9c-1a52b6b50bb0"/>
+    <listType typeId="bfa8ad36-046e-4184-8437-513a086fdec9" valueTypeId="174369eb-dbca-49cb-97f6-5533effbafec"/>
+    <managerType typeId="b8334148-7a6d-490e-8b5b-09407571e184" valueTypeId="5faac11b-450c-44a8-8463-9dd2c563bca1"/>
+  </producedTypes>
+  <name>КатегорииНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Категории номенклатуры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.КатегорииНоменклатуры.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.КатегорииНоменклатуры.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Категория номенклатуры</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="e23dfaa3-96cf-48dc-a648-57cb64ade748">
+    <name>ЕдиницаИзмерения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Единица измерения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="657efcfe-74aa-4b1e-984e-6f9947197751">
+    <name>ТипНоменклатурыПоУмолчанию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип номенклатуры по умолчанию</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипыНоменклатуры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

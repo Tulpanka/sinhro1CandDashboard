@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6bfc1ec4-d649-4bb1-a509-5c3f526c4dfa">
+  <name>ИнтеграцияСPOSTMAN</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция c POSTMAN</value>
+  </synonym>
+  <rootURL>test</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="7dd1ea68-508e-40a3-ad9b-ca5b93bf2662">
+    <name>ПроверкаСвязи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверка связи</value>
+    </synonym>
+    <template>/ping</template>
+    <methods uuid="31791eec-e598-48ce-9608-728af4c54f12">
+      <name>ОтветИстина</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ответ истина</value>
+      </synonym>
+      <handler>ПроверкаСвязиОтветИстина</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

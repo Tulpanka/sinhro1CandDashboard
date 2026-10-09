@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c2cbd783-db7e-4f4e-92d4-0be9639210e1">
+  <producedTypes>
+    <refType typeId="4a9602d0-2d68-45b8-bd80-1b6209270b28" valueTypeId="141480e8-c44d-4d93-a9e3-78edc50653d7"/>
+    <listType typeId="8c495318-9a13-49d5-9b64-119e2226db66" valueTypeId="3bc55960-6811-43f5-95dc-249bf3cdca95"/>
+    <managerType typeId="142023e9-260e-4ed7-8d87-96d1272fbd64" valueTypeId="4dd2d630-4474-4e47-841a-c78c9ae3e16c"/>
+  </producedTypes>
+  <name>ТипКонтакта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип контакта</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b1686e82-6199-41e4-8038-cce29a2f320a">
+    <name>Телефон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Телефон</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bf2f7a56-1422-4f4b-8a23-2bfe0e354a3b">
+    <name>ICQ</name>
+    <synonym>
+      <key>ru</key>
+      <value>ICQ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0d4f393e-3106-475f-888f-1d6700e45b2a">
+    <name>Skype</name>
+    <synonym>
+      <key>ru</key>
+      <value>Skype</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5fda14cf-564c-461c-8cf3-1e4f79ad622c">
+    <name>TeamViwer</name>
+    <synonym>
+      <key>ru</key>
+      <value>Team viwer</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="14587fc4-03dd-405c-a90a-a962a86fafd4">
+    <name>Email</name>
+    <synonym>
+      <key>ru</key>
+      <value>Email</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0c283a83-eb41-4aab-a128-ea6196a1e8d9">
+    <name>Telegram</name>
+    <synonym>
+      <key>ru</key>
+      <value>Telegram</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="98db7dd8-5cbc-4db2-863f-51314f656970">
+    <name>MAX</name>
+    <synonym>
+      <key>ru</key>
+      <value>MAX</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1ac669c6-cc56-406b-9d61-7d13abccb429">
+    <name>VK</name>
+    <synonym>
+      <key>ru</key>
+      <value>VK</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

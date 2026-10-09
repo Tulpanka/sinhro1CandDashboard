@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="804b36d1-e80b-4ede-875b-7d04d93caea2">
+  <producedTypes>
+    <refType typeId="d373cf4c-7fa0-446b-96d6-d8251ea2e01e" valueTypeId="7d48e4ab-ff4a-4c91-b273-83033242e054"/>
+    <listType typeId="46b35d27-ec3a-4a05-9714-d5f1a050182f" valueTypeId="2339e419-f40e-4edb-976e-411052594d94"/>
+    <managerType typeId="55d90996-973f-4f34-b82a-cf0c571d0cea" valueTypeId="87fbc019-c5c6-45fa-a796-ea4917acd170"/>
+  </producedTypes>
+  <name>СпособУстановкиКурсаВалюты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способ установки курса валюты</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b9f00666-37ce-4971-b783-a751e27e09d9">
+    <name>РучнойВвод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ручной ввод</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4161e77c-1329-432b-9387-319725c5948e">
+    <name>НаценкаНаКурсДругойВалюты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наценка на курс другой валюты</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="842b44b4-40a0-420e-b33c-9c6a61eef583">
+    <name>РасчетПоФормуле</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расчет по формуле</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

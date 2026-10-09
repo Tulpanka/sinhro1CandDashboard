@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d8c454d3-8702-445f-bafe-703720ba00d3">
+  <name>Конфигурация</name>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="08d213e9-e5a6-49ea-9bf5-7790fdbe95c3"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="86088b6f-bf97-46aa-9a89-fff61f84d875"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="112c7632-f576-45db-a278-6e946a5f6c0d"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="fd815530-b410-4644-95e7-2bf101ccc064"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="3db742cb-5b81-46f4-b68f-3a4740e49346"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="890dab7c-7f91-48e2-95c4-807f6fbfcefb"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="f21799c9-ad4c-4bce-a01e-d9b1deccefc9"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <clientApplicationWindowsOpenVariant>OpenDataInDialogs</clientApplicationWindowsOpenVariant>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.5.1</compatibilityMode>
+  <languages uuid="0d7d904c-9435-4d5d-ac66-e5ec12879b98">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.НСИ</subsystems>
+  <roles>Role.АдминистраторСистемы</roles>
+  <roles>Role.Администрирование</roles>
+  <roles>Role.ПолныеПрава</roles>
+  <roles>Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</roles>
+  <httpServices>HTTPService.ИнтеграцияСPOSTMAN</httpServices>
+  <catalogs>Catalog.БанковскиеСчета</catalogs>
+  <catalogs>Catalog.Валюты</catalogs>
+  <catalogs>Catalog.ДоговорыКонтрагентов</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.Организации</catalogs>
+  <catalogs>Catalog.ФизическиеЛица</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.КатегорииНоменклатуры</catalogs>
+  <catalogs>Catalog.ЕдиницыИзмерения</catalogs>
+  <enums>Enum.ВидКонтрагента</enums>
+  <enums>Enum.ВидДоговора</enums>
+  <enums>Enum.СпособУстановкиКурсаВалюты</enums>
+  <enums>Enum.ТипКонтакта</enums>
+  <enums>Enum.ПолФизическогоЛица</enums>
+  <enums>Enum.ТипыНоменклатуры</enums>
+  <enums>Enum.ВидыСтавокНДС</enums>
+</mdclass:Configuration>

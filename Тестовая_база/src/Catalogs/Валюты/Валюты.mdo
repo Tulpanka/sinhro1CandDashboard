@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="03fdb529-7a02-4066-bbf6-bc7a730c56c8">
+  <producedTypes>
+    <objectType typeId="e7445011-ff3e-4697-a71e-941f049cf352" valueTypeId="b27290cc-8ea0-4a36-911c-7662d36493cd"/>
+    <refType typeId="a84fcbc5-070d-4a44-9f23-aef0605552df" valueTypeId="4aae4eac-9401-4ff8-95d5-51d56361892e"/>
+    <selectionType typeId="3b9c1f9d-5ff4-4bec-a1c4-488722744bf7" valueTypeId="920c2282-b796-44a4-909e-3e3aaae472ca"/>
+    <listType typeId="9fb605dd-343a-4bea-a4f7-c16a2b72be42" valueTypeId="b2323c39-9183-4e18-84d5-2c9cfd029f15"/>
+    <managerType typeId="166d5840-3356-46ec-ae31-3223a385b156" valueTypeId="b80c425d-9913-4721-840e-54c991c07d42"/>
+  </producedTypes>
+  <name>Валюты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Валюты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Валюты.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Валюты.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Валюта</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>3</codeLength>
+  <descriptionLength>10</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="297eae29-534d-4520-93d9-2cee3d575ee4">
+    <name>НаименованиеПолное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование полное</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="564e1270-4678-4d2d-94a3-21ad6aab0ba6">
+    <name>ОсновнаяВалюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная валюта</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="50013e23-5730-487a-8be3-c3e254e9ecaf">
+    <name>СпособУстановкиКурса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Способ установки курса</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СпособУстановкиКурсаВалюты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cdafed1c-501f-4e92-a0e8-8056f7cfe336">
+    <name>СимвольноеПредставление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Символьное представление</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>3</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
