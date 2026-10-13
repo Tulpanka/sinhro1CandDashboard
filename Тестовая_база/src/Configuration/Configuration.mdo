@@ -36,6 +36,7 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.НСИ</subsystems>
+  <subsystems>Subsystem.Продажи</subsystems>
   <roles>Role.АдминистраторСистемы</roles>
   <roles>Role.Администрирование</roles>
   <roles>Role.ПолныеПрава</roles>
