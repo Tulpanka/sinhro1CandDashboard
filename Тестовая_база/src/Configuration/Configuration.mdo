@@ -51,6 +51,7 @@
   <catalogs>Catalog.КатегорииНоменклатуры</catalogs>
   <catalogs>Catalog.ЕдиницыИзмерения</catalogs>
   <documents>Document.ЗаказПокупателя</documents>
+  <documents>Document.ЗаказПоставщика</documents>
   <enums>Enum.ВидКонтрагента</enums>
   <enums>Enum.ВидДоговора</enums>
   <enums>Enum.СпособУстановкиКурсаВалюты</enums>
